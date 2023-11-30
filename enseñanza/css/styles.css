@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #61926b;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#resultados {
+    margin-top: 10px;
+}
+
+#resultados table {
+    margin-top: 0;
+}
+
+#resultados th, #resultados td {
+    background-color: #fff;
+    box-shadow: none;
+}
+#eliminar{
+    background-color: red;
+}
+a{
+    background-color: yellow;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
